@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #06283d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100dvh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  width: 500px;
+  padding: 28px 32px;
+  overflow: hidden;
+  border-radius: 18px;
+  -webkit-transition: 0.5s ease-i;
+  transition: 0.5s ease-i;
+}
+
+.search-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #06283d;
+  position: relative;
+}
+
+.search-box input {
+  color: #06283d;
+  width: 80%;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.4px;
+  margin-left: 32px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.search-box input::-webkit-input-placeholder {
+  color: #06283d;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.search-box input::-moz-placeholder {
+  color: #06283d;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.search-box input:-ms-input-placeholder {
+  color: #06283d;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.search-box input::-ms-input-placeholder {
+  color: #06283d;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.search-box input::placeholder {
+  color: #06283d;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.search-box button {
+  cursor: pointer;
+  width: 50px;
+  width: 50px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.search-box button:hover {
+  color: white;
+  background-color: #06283d;
+}
+
+.fa-location-dot {
+  position: absolute;
+  color: #06283d;
+  font-size: 20px;
+}
+
+.weather {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.weather h2 {
+  font-size: 50px;
+  font-weight: 650;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.details i {
+  font-size: 50px;
+}
+
+.details p {
+  font-size: 20px;
+}
+
+.weather-image i {
+  font-size: 80px;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+  display: none;
+}
